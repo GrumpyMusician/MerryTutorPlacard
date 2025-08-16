@@ -1,0 +1,50 @@
+html {
+    background-color: #68041c;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#logo {
+    max-width: calc(100% - 150px);
+    max-height: calc(100% - 150px);
+    object-fit: contain;
+    margin: auto;
+    position: absolute;
+}
+
+#weatherwidget {
+    display: absolute;
+    margin-left: 10px;
+    width: 221px;
+    margin-right: -20px;
+    pointer-events: none;
+}
+
+#widgetcontainer{
+    margin-top: calc(100vh - 180px);
+    margin-left: calc(-1 * 100vw + 580px);
+    transform: scale(1.45);
+
+    background: rgba(0, 0, 0, 0.16);
+    border-radius: 16px;
+    backdrop-filter: blur(2px);
+
+    display: grid;
+    grid-template-columns: 0.9fr 0fr;
+}
+
+#clock {
+    font-size: 33px;
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
