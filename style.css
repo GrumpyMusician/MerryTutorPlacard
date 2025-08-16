@@ -30,9 +30,9 @@ body {
 }
 
 #widgetcontainer{
-    margin-top: calc(100vh - 180px);
-    margin-left: calc(-1 * 100vw + 580px);
-    transform: scale(1.45);
+    margin-top: calc(100vh - 200px);
+    margin-left: calc(-1 * 100vw + 632px);
+    transform: scale(1.55);
 
     background: rgba(0, 0, 0, 0.16);
     border-radius: 16px;
